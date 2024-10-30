@@ -1,0 +1,84 @@
+/* FONTS */
+
+.wp-admin.woocommerce_page_mcw_settings_page h1 {
+    font-weight: bold;
+}
+
+.wp-admin.woocommerce_page_mcw_settings_page h2.mcw {
+    font-size: 1.3em;
+    color: green;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+    font-family: Merriweather, Georgia, serif;
+    padding: 0;
+}
+
+
+/* HELPER AND DESCRIPTION TEXT */
+
+.wp-admin.woocommerce_page_mcw_settings_page span.mcw-helper,
+.wp-admin.woocommerce_page_mcw_settings_page p.mcw-description {
+    display: block;
+    color: blue;
+    font-style: italic;
+}
+
+
+/* FIX HOOK STYLING ISSUES */
+
+.mcw-after-cart,
+.mcw-before-product-tabs {
+    clear: both;
+}
+
+
+/* TAB BACKGROUND ON HOVER/ACTIVE */
+
+.wp-admin.woocommerce_page_mcw_settings_page .nav-tab:hover,
+.wp-admin.woocommerce_page_mcw_settings_page .nav-tab-active {
+    background-color: #008000;
+    color: #fff;
+}
+
+
+/* RADIO BUTTONS */
+
+.wp-admin.woocommerce_page_mcw_settings_page fieldset label {
+    margin: 10px 20px 0 0!important;
+}
+
+
+/* TABLES */
+
+.wp-admin.woocommerce_page_mcw_settings_page .form-table {
+    background-color: #fff;
+    padding: 10px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.wp-admin.woocommerce_page_mcw_settings_page .form-table td {
+    width: 85%;
+}
+
+@media screen and (max-width: 782px) {
+    .wp-admin.woocommerce_page_mcw_settings_page .form-table tbody,
+    .wp-admin.woocommerce_page_mcw_settings_page .form-table tr,
+    .wp-admin.woocommerce_page_mcw_settings_page .form-table td {
+        display: block;
+        width: 100%;
+    }
+}
+
+.wp-admin.woocommerce_page_mcw_settings_page textarea {
+    width: 100%;
+}
+
+
+/* IMAGES */
+
+.wp-admin.woocommerce_page_mcw_settings_page img {
+    max-width: 400px;
+}
